@@ -211,7 +211,7 @@
     height: 320px;
 }
 
-.opportunities__card__img--freeclients {
+.opportunities__card__img--load {
     background-color: transparent;
     background-repeat: no-repeat;
     background-image: url(../img/opportunities_4.png);
@@ -461,6 +461,12 @@
     width: 60px;
     height: 60px;
     display: block;
+    transition: 0.2s;
+}
+
+.contacts__links__telegram:hover {
+    transform: scale(1.12);
+    transition: 0.3s;
 }
 
 .contacts__links__whatsapp {
@@ -471,6 +477,12 @@
     width: 60px;
     height: 60px;
     display: block;
+    transition: 0.2s;
+}
+
+.contacts__links__whatsapp:hover {
+    transform: scale(1.12);
+    transition: 0.3s;
 }
 
 .contacts__links__viber {
@@ -481,6 +493,12 @@
     width: 60px;
     height: 60px;
     display: block;
+    transition: 0.2s;
+}
+
+.contacts__links__viber:hover {
+    transform: scale(1.12);
+    transition: 0.3s;
 }
 
 .contacts__img {
@@ -601,6 +619,12 @@
     display: block;
     width: 188px;
     margin: auto;
+    transition: 0.2s;
+}
+
+.contact__link:hover {
+    background-color: #13345D;
+    transition: 0.3s;
 }
 
 .example__ourwork__txt {
@@ -935,6 +959,7 @@
     margin: 0;
     display: flex;
     column-gap: 3px;
+    align-items: center;
 }
 
 .footer__container ul li {
