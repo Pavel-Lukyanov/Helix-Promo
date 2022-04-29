@@ -192,6 +192,10 @@
     bottom: -12px;
 }
 
+.rate__price__bottom__mob {
+    display: none;
+}
+
 .opportunities__card__left h3 {
     font-family: 'Manrope';
     font-style: normal;
@@ -650,7 +654,6 @@
     border-radius: 66px;
     text-decoration: none;
     display: block;
-    width: 188px;
     margin: auto;
     transition: 0.2s;
 }
@@ -670,6 +673,8 @@
 }
 
 .rate__container {
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 80px;
     padding-bottom: 80px;
     max-width: 1200px;
@@ -800,6 +805,7 @@
 }
 
 .rate__include ul li {
+    column-gap: 10px;
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -825,6 +831,8 @@
     background-image: url(../img/icon_check.svg);
     display: block;
     padding-right: 14px;
+    display: block;
+    margin-right: 14px;
 }
 
 .example__img--container {
@@ -848,12 +856,16 @@
 }
 
 .rate__list__container {
+    padding-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 19px;
+    width: 100%;
+    overflow-x: scroll;
 }
 
 .rate__start {
+    width: 386.5px;
     background: #FFFFFF;
     border: 1px solid #EFF0F7;
     box-sizing: border-box;
@@ -1012,8 +1024,21 @@
 }
 
 @media(max-width: 1160px) {
+    
     .benefits__list {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media(max-width: 1100px) {
+
+    .rate__description {
+        justify-content: space-evenly;
+    }
+
+    .rate__include ul {
+        column-count: 1;
     }
 }
 
@@ -1128,6 +1153,35 @@
 }
 
 @media(max-width: 768px) {
+
+    .rate__include {
+        margin-bottom: 30px;
+    }
+
+    .rate__txt {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .rate__include ul li p {
+        max-width: 100%;
+    }
+
+    .rate__price__bottom__mob {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 320px;
+    }
+
+    .rate__price__bottom {
+        display: none;
+    }
+
+    .rate__description {
+        flex-direction: column;
+    }
+
     .contacts__container {
         padding-left: 20px;
         padding-right: 20px;
@@ -1212,6 +1266,23 @@
     }
 }
 
+@media(max-width: 500px) {
+
+    .rate__include ul li p {
+        font-size: 14px;
+    }
+
+    .rate__description {
+        padding: 30px 20px;
+    }
+    
+    .rate__start {
+        width: 300px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 @media(max-width: 480px) {
 
     .footer__tel {
@@ -1232,6 +1303,11 @@
 }
 
 @media(max-width: 425px) {
+
+    .rate__container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
     .mockup__mobile {
         padding-left: 15px;
