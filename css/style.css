@@ -414,6 +414,7 @@ html {
 }
 
 .benefits__hover__header {
+    user-select: none;
     display: contents;
     font-weight: 700;
     color: #13345D;
