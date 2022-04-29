@@ -149,6 +149,11 @@
     width: 100%;
 }
 
+.contacts__padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .opportunities {
     background: #f3fcff;
 }
@@ -453,7 +458,7 @@
     font-weight: 400;
     font-size: 18px;
     color: #13345E;
-    max-width: 335px;
+    max-width: 340px;
     line-height: 27px;
     margin-bottom: 15px;
 }
@@ -474,6 +479,7 @@
     padding: 0;
     margin: 0;
     column-gap: 6px;
+    margin-bottom: 55px;
 }
 
 .contacts__links li {
@@ -1121,6 +1127,13 @@
     }
 }
 
+@media(max-width: 768px) {
+    .contacts__container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 @media(max-width: 720px) {
 
     .description h1 {
@@ -1135,6 +1148,46 @@
 
     .description h1 {
         max-width: 440px;
+    }
+}
+
+@media(max-width: 690px) {
+
+    .contacts__container {
+        display: block;
+    }
+
+    .contacts__text {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .contacts__links {
+        margin-bottom: 0;
+    }
+
+    .contacts__text h2 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .contacts__text p {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .contacts__links {
+        justify-content: center;
+    }
+
+    .contacts__tel {
+        text-align: center;
+    }
+
+    .contacts__img {
+        display: none;
     }
 }
 
@@ -1179,6 +1232,16 @@
 }
 
 @media(max-width: 425px) {
+
+    .mockup__mobile {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .contacts__padding {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
     .footer__container {
         padding-left: 15px;
@@ -1269,5 +1332,11 @@
     .header {
         padding-left: 15px;
         padding-right: 15px;
+    }
+}
+
+@media(max-width: 366px) {
+    .description h1 {
+        max-width: 290px;
     }
 }
