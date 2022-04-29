@@ -805,7 +805,6 @@
 }
 
 .rate__include ul li {
-    column-gap: 10px;
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -831,8 +830,7 @@
     background-image: url(../img/icon_check.svg);
     display: block;
     padding-right: 14px;
-    display: block;
-    margin-right: 14px;
+    flex-shrink: 0;
 }
 
 .example__img--container {
@@ -1269,7 +1267,23 @@
 @media(max-width: 500px) {
 
     .rate__include ul li p {
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .contact__link {
+        padding: 20px 50px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .rate__start ul li p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .rate__include__price  {
+        font-size: 20px;
     }
 
     .rate__description {
@@ -1278,8 +1292,7 @@
     
     .rate__start {
         width: 300px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 30px 20px;
     }
 }
 
