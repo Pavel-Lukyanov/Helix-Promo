@@ -961,6 +961,10 @@ html {
     background: #0095D4;
 }
 
+.rate__business h2 {
+    color: #FFFFFF;
+}
+
 .rate__business .rate__basis__head {
     color: #FFFFFF;
 }
