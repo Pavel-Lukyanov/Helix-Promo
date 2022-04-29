@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-
 @font-face {
     font-family: "DINPro";
     src: url("../fonts/DINPro.woff2");
     font-style: normal;
     font-weight: normal;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .main__background {
@@ -15,6 +18,10 @@
     padding-bottom: 150px;
     background-size: cover;
     background-position: center;
+}
+
+.contact__link__width {
+    width: 188px;
 }
 
 .header {
@@ -545,7 +552,7 @@
 .example__background {
     background-color: transparent;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     background-image: url(../img/example_background.png);
     padding-bottom: 310px;
 }
@@ -554,7 +561,7 @@
     max-width: 1160px;
     margin: auto;
     display: flex;
-    padding-top: 73px;
+    padding-top: 167px;
 }
 
 .example__ourwork {
@@ -619,7 +626,7 @@
     background: #FFFFFF;
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
     border-radius: 7px;
-    padding: 12px 21px;
+    padding: 12px 19px;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
@@ -627,6 +634,10 @@
     line-height: 27px;
     text-align: center;
     color: #13345D;
+}
+
+.example__get__list__item p {
+    margin: 0;
 }
 
 .example__get__list {
@@ -839,7 +850,7 @@
 
 .example__img__before {
     position: absolute;
-    top: 0;
+    top: -85px;
     z-index: 1;
 }
 
@@ -859,11 +870,10 @@
     grid-template-columns: repeat(3, 1fr);
     column-gap: 19px;
     width: 100%;
-    overflow-x: scroll;
 }
 
 .rate__start {
-    width: 386.5px;
+    width: 386px;
     background: #FFFFFF;
     border: 1px solid #EFF0F7;
     box-sizing: border-box;
@@ -1021,8 +1031,15 @@
     margin-left: 12px;
 }
 
+@media(max-width:1235px) {
+
+    .rate__list__container {
+        overflow-x: scroll;
+    }
+}
+
 @media(max-width: 1160px) {
-    
+
     .benefits__list {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -1120,7 +1137,7 @@
         padding-right: 20px;
         padding-left: 20px;
         display: grid;
-        grid-template-columns: repeat(2 ,1fr);
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 15px;
         row-gap: 15px;
     }
@@ -1266,6 +1283,18 @@
 
 @media(max-width: 500px) {
 
+    .rate__txt {
+        line-height: 24px;
+    }
+
+    .rate__txt__card {
+        line-height: 24px;
+    }
+
+    .rate__price__bottom__new {
+        font-size: 24px;
+    }
+
     .rate__include ul li p {
         font-size: 16px;
         line-height: 18px;
@@ -1282,14 +1311,14 @@
         line-height: 18px;
     }
 
-    .rate__include__price  {
+    .rate__include__price {
         font-size: 20px;
     }
 
     .rate__description {
         padding: 30px 20px;
     }
-    
+
     .rate__start {
         width: 300px;
         padding: 30px 20px;
@@ -1357,31 +1386,31 @@
         width: 280px;
         height: 280px;
     }
-    
+
     .opportunities__card__img--freeclients {
         background-size: 280px;
         width: 280px;
         height: 280px;
     }
-    
+
     .opportunities__card__img--promotion {
         background-size: 280px;
         width: 280px;
         height: 280px;
     }
-    
+
     .opportunities__card__img--load {
         background-size: 280px;
         width: 280px;
         height: 280px;
     }
-    
+
     .opportunities__card__img--control {
         background-size: 280px;
         width: 280px;
         height: 280px;
     }
-    
+
     .opportunities__card__img--seo {
         background-size: 280px;
         width: 280px;
@@ -1393,7 +1422,7 @@
         padding-right: 15px;
     }
 
-    .opportunities__container h2{
+    .opportunities__container h2 {
         font-size: 20px;
         line-height: 22px;
     }
