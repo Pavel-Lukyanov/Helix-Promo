@@ -558,6 +558,8 @@ html {
 }
 
 .example__container {
+    padding-right: 20px;
+    padding-left: 20px;
     max-width: 1160px;
     margin: auto;
     display: flex;
@@ -849,12 +851,15 @@ html {
 }
 
 .example__img__before {
+    transform: rotate(4deg);
     position: absolute;
-    top: -85px;
+    top: -50px;
     z-index: 1;
+    left: 13px;
 }
 
 .example__img__after {
+    transform: rotate(-1deg);
     position: absolute;
     bottom: -260px;
     z-index: 0;
@@ -1031,6 +1036,49 @@ html {
     margin-left: 12px;
 }
 
+@media(max-width: 1770px) {
+
+    .example__background {
+        padding-bottom: 70px;
+    }
+
+    .example__get__list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .example__ourwork h2 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .example__get {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .example__txt {
+        max-width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .example__container {
+        flex-direction: column;
+    }
+    
+    .example__img__before {
+        transform: rotate(0deg);
+        position: static;
+        width: 100%;
+    }
+    
+    .example__img__after {
+        transform: rotate(0deg);
+        position: static;
+        width: 100%;
+    }
+}
+
 @media(max-width:1235px) {
 
     .rate__list__container {
@@ -1083,6 +1131,10 @@ html {
 }
 
 @media(max-width: 850px) {
+
+    .example__get__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     .footer__container p {
         text-align: center;
@@ -1222,6 +1274,19 @@ html {
 
 @media(max-width: 690px) {
 
+    .example__ourwork h2 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .example__container {
+        padding-top: 60px;
+    }
+
+    .example__txt {
+        text-align: start;
+    }
+
     .contacts__container {
         display: block;
     }
@@ -1278,6 +1343,12 @@ html {
 
     .header__tel {
         display: none;
+    }
+}
+
+@media(max-width: 520px) {
+    .example__get__list {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -1345,6 +1416,11 @@ html {
 }
 
 @media(max-width: 425px) {
+
+    .example__container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
     .rate__container {
         padding-left: 15px;
