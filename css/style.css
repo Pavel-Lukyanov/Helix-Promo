@@ -135,6 +135,7 @@ html {
     line-height: 34px;
     color: #FFFFFF;
     max-width: 400px;
+    margin-bottom: 50px;
 }
 
 .mockup {
@@ -405,6 +406,7 @@ html {
     line-height: 25px;
     color: #13345D;
     text-align: start;
+    max-width: 100%;
 }
 
 .contacts {
@@ -1049,6 +1051,10 @@ html {
 
 @media(max-width: 1770px) {
 
+    .example__container {
+        padding-top: 100px;
+    }
+
     .example__ourwork p {
         max-width: 100%;
         margin-bottom: 20px;
@@ -1133,7 +1139,7 @@ html {
     }
 
     .main__background {
-        background-position: -700px;
+        background-position: -600px;
     }
 }
 
@@ -1232,12 +1238,6 @@ html {
         min-height: 121px;
         display: flex;
         align-items: center;
-    }
-}
-
-@media(max-width: 783px) {
-    .example__get__list__item {
-        min-height: 105px;
     }
 }
 
@@ -1347,6 +1347,12 @@ html {
     }
 }
 
+@media(max-width: 620px) {
+    .benefits__hover p {
+        font-size: 14px;
+    }
+}
+
 @media(max-width: 590px) {
     .example__get__list__item {
         min-height: 132px;
@@ -1432,6 +1438,10 @@ html {
 
 @media(max-width: 480px) {
 
+    .benefits__hover p {
+        font-size: 16px;
+    }
+
     .footer__tel {
         font-size: 18px;
     }
@@ -1489,7 +1499,7 @@ html {
     }
 
     .benefits__container h2 {
-        font-size: 20px;
+        font-size: 25px;
         line-height: 22px;
     }
 
@@ -1540,8 +1550,8 @@ html {
     }
 
     .opportunities__container h2 {
-        font-size: 20px;
-        line-height: 22px;
+        font-size: 25px;
+        line-height: 26px;
     }
 
     .description {
@@ -1566,8 +1576,17 @@ html {
     }
 
     .header {
+        margin-bottom: 50px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+}
+
+@media(max-width: 396px) {
+    .example__get__list__item {
+        min-height: 121px;
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -1576,3 +1595,4 @@ html {
         max-width: 290px;
     }
 }
+
