@@ -1227,6 +1227,14 @@ html {
     }
 }
 
+@media(max-width: 786px) {
+    .example__get__list__item {
+        min-height: 121px;
+        display: flex;
+        align-items: center;
+    }
+}
+
 @media(max-width: 783px) {
     .example__get__list__item {
         min-height: 105px;
@@ -1234,6 +1242,10 @@ html {
 }
 
 @media(max-width: 768px) {
+
+    .rate__basis {
+        max-width: 100%;
+    }
 
     .rate__include {
         margin-bottom: 30px;
