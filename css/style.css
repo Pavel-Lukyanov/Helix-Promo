@@ -222,51 +222,6 @@ html {
     max-width: 500px;
 }
 
-.opportunities__card__img--record {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-image: url(../img/opportunities_1.png);
-    background-size: 320px;
-    width: 320px;
-    height: 320px;
-}
-
-.opportunities__card__img--freeclients {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-image: url(../img/opportunities_2.png);
-    background-size: 320px;
-    width: 320px;
-    height: 320px;
-}
-
-.opportunities__card__img--promotion {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-image: url(../img/opportunities_3.png);
-    background-size: 320px;
-    width: 320px;
-    height: 320px;
-}
-
-.opportunities__card__img--load {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-image: url(../img/opportunities_4.png);
-    background-size: 320px;
-    width: 320px;
-    height: 320px;
-}
-
-.opportunities__card__img--control {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-image: url(../img/opportunities_5.png);
-    background-size: 320px;
-    width: 320px;
-    height: 320px;
-}
-
 .opportunities__card__img--seo {
     background-color: transparent;
     background-repeat: no-repeat;
@@ -626,10 +581,10 @@ html {
 }
 
 .example__get__list__item {
+    height: 100%;
     background: #FFFFFF;
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
     border-radius: 7px;
-    padding: 12px 19px;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
@@ -640,6 +595,7 @@ html {
 }
 
 .example__get__list__item p {
+    padding: 12px 19px;
     margin: 0;
 }
 
@@ -648,10 +604,7 @@ html {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 14px;
     row-gap: 10px;
-}
-
-.example__get__list {
-    margin-bottom: 31px;
+    margin-bottom: 50px;
 }
 
 .contact__link {
@@ -1043,6 +996,10 @@ html {
 
 @media(max-width: 1770px) {
 
+    .example__ourwork h2 {
+        text-align: center;
+    }
+
     .example__background {
         padding-bottom: 70px;
     }
@@ -1064,7 +1021,6 @@ html {
     .example__txt {
         max-width: 100%;
         margin-bottom: 40px;
-        text-align: center;
     }
 
     .example__container {
@@ -1139,6 +1095,7 @@ html {
 
     .example__get__list {
         grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
     }
 
     .footer__container p {
@@ -1224,6 +1181,12 @@ html {
     }
 }
 
+@media(max-width: 783px) {
+    .example__get__list__item {
+        min-height: 105px;
+    }
+}
+
 @media(max-width: 768px) {
 
     .rate__include {
@@ -1265,15 +1228,14 @@ html {
     .description h1 {
         font-size: 40px;
         line-height: 40px;
+        margin-bottom: 20px;
+        max-width: 440px;
     }
 
     .description p {
         font-size: 22px;
         line-height: 22px;
-    }
-
-    .description h1 {
-        max-width: 440px;
+        margin-bottom: 20px;
     }
 }
 
@@ -1286,10 +1248,6 @@ html {
 
     .example__container {
         padding-top: 60px;
-    }
-
-    .example__txt {
-        text-align: start;
     }
 
     .contacts__container {
@@ -1330,6 +1288,12 @@ html {
     }
 }
 
+@media(max-width: 590px) {
+    .example__get__list__item {
+        min-height: 132px;
+    }
+}
+
 @media(max-width: 570px) {
 
     .main__background {
@@ -1352,8 +1316,14 @@ html {
 }
 
 @media(max-width: 520px) {
+
     .example__get__list {
         grid-template-columns: 1fr;
+        margin-bottom: 20px;
+    }
+
+    .example__get__list__item {
+        min-height: auto;
     }
 }
 
@@ -1422,6 +1392,10 @@ html {
 
 @media(max-width: 425px) {
 
+    .example__ourwork h2 {
+        text-align: start;
+    }
+
     .example__container {
         padding-left: 15px;
         padding-right: 15px;
@@ -1462,32 +1436,27 @@ html {
         padding-right: 15px;
     }
 
-    .opportunities__card__img--record {
-        background-size: 280px;
+    .opportunities__card__img--record svg {
         width: 280px;
         height: 280px;
     }
 
-    .opportunities__card__img--freeclients {
-        background-size: 280px;
+    .opportunities__card__img--freeclients svg {
         width: 280px;
         height: 280px;
     }
 
-    .opportunities__card__img--promotion {
-        background-size: 280px;
+    .opportunities__card__img--promotion svg {
         width: 280px;
         height: 280px;
     }
 
-    .opportunities__card__img--load {
-        background-size: 280px;
+    .opportunities__card__img--load svg {
         width: 280px;
         height: 280px;
     }
 
-    .opportunities__card__img--control {
-        background-size: 280px;
+    .opportunities__card__img--control svg {
         width: 280px;
         height: 280px;
     }
