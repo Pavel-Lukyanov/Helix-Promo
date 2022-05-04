@@ -230,9 +230,10 @@ html {
     background-color: transparent;
     background-repeat: no-repeat;
     background-image: url(../img/iphone_12.png);
-    background-size: 320px;
-    width: 303px;
-    height: 540px;
+    background-size: 410px 718px;
+    width: 400px;
+    height: 710px;
+    background-position: -19px 10px;
 }
 
 .opportunities__card {
@@ -253,9 +254,16 @@ html {
     color: #333333;
 }
 
+.opportunities__card__left__seo p {
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
 .opportunities__card__left__seo h3 {
     font-size: 25px;
     color: #13345E;
+    margin-bottom: 15px;
 }
 
 .opportunities__seo__txt {
@@ -310,7 +318,7 @@ html {
 }
 
 .benefits__item {
-    padding-top: 30px;
+    padding-top: 24px;
     padding-right: 15px;
     padding-left: 15px;
     padding-bottom: 15px;
@@ -322,7 +330,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 205px;
+    min-height: 167px;
 }
 
 .benefits__item p {
@@ -336,6 +344,8 @@ html {
     text-align: center;
     color: #13345D;
     max-width: 250px;
+    margin-bottom: 0;
+    margin-top: 12px;
 }
 
 .benefits__item:hover .benefits__hover {
@@ -358,12 +368,12 @@ html {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 150%;
     text-align: center;
     margin: auto;
     color: #FFFFFF;
-    max-width: 660px;
+    max-width: 690px;
 }
 
 .benefits__hover {
@@ -520,7 +530,7 @@ html {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url(../img/example_background.png);
-    padding-bottom: 310px;
+    padding-bottom: 130px;
 }
 
 .example__container {
@@ -533,7 +543,7 @@ html {
 }
 
 .example__ourwork {
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 .example__ourwork h2 {
@@ -545,6 +555,7 @@ html {
     color: #FFFFFF;
     width: 565px;
     margin-top: 0;
+    margin-bottom: 50px;
 }
 
 .example__ourwork p {
@@ -552,8 +563,10 @@ html {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 27px;
+    line-height: 30px;
     color: #FFFFFF;
+    max-width: 530px;
+    margin-bottom: 25px;
 }
 
 .example__decoration--one {
@@ -563,6 +576,9 @@ html {
     border-radius: 7px;
     padding: 0px 10px;
     white-space: nowrap;
+    font-size: 22px;
+    font-weight: 600;
+    display: inline-block;
 }
 
 .example__decoration--two {
@@ -572,6 +588,9 @@ html {
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
     border-radius: 7px;
     padding: 0px 10px;
+    font-size: 22px;
+    font-weight: 600;
+    display: inline-block;
 }
 
 .example__get {
@@ -605,7 +624,7 @@ html {
 }
 
 .example__get__list__item p {
-    padding: 12px 19px;
+    padding: 20px 20px;
     margin: 0;
 }
 
@@ -642,7 +661,7 @@ html {
 
 .example__ourwork__txt {
     font-weight: 400 !important;
-    font-size: 18px !important;
+    font-size: 20px !important;
 }
 
 .rate {
@@ -652,8 +671,8 @@ html {
 .rate__container {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 45px;
+    padding-bottom: 93px;
     max-width: 1200px;
     margin: auto;
 }
@@ -703,6 +722,7 @@ html {
     font-size: 18px;
     line-height: 20px;
     color: #6F6C90;
+    max-width: 560px;
 }
 
 .rate__name {
@@ -724,7 +744,6 @@ html {
     font-size: 18px;
     line-height: 30px;
     color: #8B87A4;
-    max-width: 316px;
     margin-bottom: 93px;
 }
 
@@ -779,12 +798,14 @@ html {
     padding: 0;
     margin: 0;
     column-count: 2;
+    column-gap: 50px;
 }
 
 .rate__include ul li {
     list-style-type: none;
     display: flex;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 .rate__include ul li p {
@@ -794,7 +815,8 @@ html {
     font-size: 18px;
     line-height: 25px;
     color: #170F49;
-    margin-bottom: 16px;
+    margin-top: 0;
+    margin-bottom: 0px;
     max-width: 360px;
 }
 
@@ -817,16 +839,17 @@ html {
 .example__img__before {
     transform: rotate(4deg);
     position: absolute;
-    top: -50px;
+    top: -67px;
     z-index: 1;
-    left: 13px;
+    left: 36px;
 }
 
 .example__img__after {
     transform: rotate(-1deg);
     position: absolute;
-    bottom: -260px;
+    bottom: -60px;
     z-index: 0;
+    left: 18px;
 }
 
 .example__txt {
@@ -957,6 +980,7 @@ html {
 }
 
 .footer__background {
+    min-height: 100px;
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -971,6 +995,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 25px;
 }
 
 .footer__container p {
