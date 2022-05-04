@@ -76,30 +76,30 @@ html {
     background-color: transparent;
     background-repeat: no-repeat;
     background-image: url(../img/icon_telegram.svg);
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     display: block;
-    background-size: 25px;
+    background-size: 30px;
 }
 
 .header__whatsapp {
     background-color: transparent;
     background-repeat: no-repeat;
     background-image: url(../img/icon_whatsapp.svg);
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     display: block;
-    background-size: 25px;
+    background-size: 30px;
 }
 
 .header__viber {
     background-color: transparent;
     background-repeat: no-repeat;
     background-image: url(../img/icon_viber.svg);
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     display: block;
-    background-size: 25px;
+    background-size: 30px;
 }
 
 .description {
@@ -1595,4 +1595,3 @@ html {
         max-width: 290px;
     }
 }
-
