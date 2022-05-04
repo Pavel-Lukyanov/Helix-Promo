@@ -543,7 +543,7 @@ html {
 }
 
 .example__ourwork {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .example__ourwork h2 {
@@ -1120,6 +1120,10 @@ html {
     .main__background {
         background-position: -500px;
     }
+
+    .opportunities__card__left__seo {
+        max-width: 500px;
+    }
 }
 
 @media(max-width: 960px) {
@@ -1130,10 +1134,6 @@ html {
 
     .main__background {
         background-position: -700px;
-    }
-
-    .opportunities__card__left__seo {
-        max-width: 500px;
     }
 }
 
