@@ -1143,6 +1143,13 @@ html {
     }
 }
 
+@media(max-width: 920px) {
+    
+    .opportunities__card__left__seo {
+        max-width: 450px;
+    }
+}
+
 @media(max-width: 850px) {
 
     .example__get__list {
