@@ -1346,11 +1346,11 @@ html {
 
     .mockups__desktop {
         width: 100%;
-        margin-top: -60px;
+        margin-top: -130px;
     }
 
     .main__background {
-        padding-bottom: 60px;
+        padding-bottom: 150px;
     }
 }
 
@@ -1461,6 +1461,15 @@ html {
 }
 
 @media(max-width: 425px) {
+
+    .mockups__desktop {
+        width: 100%;
+        margin-top: -75px;
+    }
+
+    .main__background {
+        padding-bottom: 80px;
+    }
 
     .example__decoration--one {
         font-size: 18px;
