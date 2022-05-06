@@ -1465,6 +1465,19 @@ html {
 
 @media(max-width: 768px) {
 
+    .partners__tooltip::after {
+        border: none;
+    }
+
+    .progress__value {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    .progress__text {
+        font-size: 16px;
+    }
+
     .vidget-fixed__items {
         top: 90px;
     }
