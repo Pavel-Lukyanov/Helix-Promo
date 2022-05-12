@@ -3,17 +3,11 @@
 @font-face {
     font-family: 'DINPro';
     src: url('../fonts/din_pro_condensed_regular.eot');
-    /* IE 9 Compatibility Mode */
     src: url('../fonts/din_pro_condensed_regular.eot?#iefix') format('embedded-opentype'),
-        /* IE < 9 */
         url('../fonts/din_pro_condensed_regular.woff2') format('woff2'),
-        /* Super Modern Browsers */
         url('../fonts/din_pro_condensed_regular.woff') format('woff'),
-        /* Firefox >= 3.6, any other modern browser */
         url('../fonts/din_pro_condensed_regular.ttf') format('truetype'),
-        /* Safari, Android, iOS */
         url('../fonts/din_pro_condensed_regular.svg#din_pro_condensed_regular') format('svg');
-    /* Chrome < 4, Legacy iOS */
 }
 
 @font-face {
@@ -46,17 +40,6 @@
 .vidget-fixed__items:hover {
     background-color: #13345D;
     transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-@media(max-width: 425px) {
-
-    .vidget-fixed__items {
-        width: 92px;
-        padding: 5px 10px;
-        font-size: 14px;
-        top: 90px;
-    }
-
 }
 
 html {
@@ -170,6 +153,10 @@ html {
     color: #FFFFFF;
     max-width: 500px;
     margin-bottom: 37px;
+}
+
+.description__logo {
+    font-size: 60px !important;
 }
 
 .description__logo--helix {
@@ -1852,6 +1839,17 @@ html {
 }
 
 @media(max-width: 425px) {
+
+    .vidget-fixed__items {
+        width: 92px;
+        padding: 5px 10px;
+        font-size: 14px;
+        top: 90px;
+    }
+
+    .description__logo {
+        font-size: 45px !important;
+    }
 
     .about__slogan {
         max-width: 425px;
