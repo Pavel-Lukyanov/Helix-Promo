@@ -1,17 +1,10 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const arrowMobile = document.getElementById('arrowMobile');
-    const vidget = document.querySelector('.vidget-fixed');
-    arrowMobile.addEventListener('click', () => {
-        vidget.classList.toggle('active');
-    });
-});
-
-
-/* const swiper = new Swiper('.swiper', {
-    // Optional parameters
+    
+const swiper = new Swiper('.swiper', {
+    slidesPerView: 1,
+    loop: true,
     direction: 'horizontal',
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-}); */
+});
